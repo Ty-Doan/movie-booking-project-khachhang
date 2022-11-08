@@ -34,7 +34,7 @@ export default function UserNav() {
           onClick: () => {
             localService.removeUserInfor();
             userInfor.maLoaiNguoiDung == "QuanTri"
-              ? (window.location.href = "https://cinemaadmin.web.app/")
+              ? (window.location.href = "https://movie-booking-project-admin.vercel.app/")
               : (window.location.href = "/");
           },
         },
